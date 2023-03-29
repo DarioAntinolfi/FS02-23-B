@@ -1,0 +1,54 @@
+
+body {
+    margin: 0;
+    background: linear-gradient(90deg, rgba(184,10,165,1) 0%, rgba(230,22,204,1) 54%, rgba(231,203,232,1) 100%);
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.centrato {
+    text-align: center;
+
+}
+
+header{
+    text-align: center;
+}
+
+.header1 {
+    background-color: white;
+    padding: 4px;
+}
+
+main {
+    margin: 0 25%;
+}
+
+.nome-video {
+    color: grey;
+    a:link
+}
+
+.featured{
+    color: orange;
+}
+
+.fresh {
+    color: aqua;
+}
+
+.make {
+    font-size: small;
+}
+
+.focaccia{
+    font-weight: bold;
+}
+
+footer {
+    margin: 0 25%;
+}
+
+.form {
+    font-size: small;
+    text-align: center;
+}
