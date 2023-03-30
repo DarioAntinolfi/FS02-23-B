@@ -1,0 +1,60 @@
+/* IMPOSTAZIONI GENERALI */
+@import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
+body{
+    background-image: src="assets/img/sfondo.png" ;
+}
+
+h1{
+    font-size: 40px;
+}
+/* HEADER */
+header{
+    background: linear-gradient(90deg, rgba(0,160,198,1) 0%, rgba(3,109,134,1) 100%);
+    text-align: center;
+    color: white;
+    margin: 1rem;
+    box-shadow: 0px 3px gray
+}
+nav>ul>li::before {
+   content: url(../img/star_FILL0_wght400_GRAD0_opsz48.svg) 
+}
+
+/* MAIN */
+main{
+    margin: 1rem;
+    padding: 2rem 3rem;
+    background-color: white;
+}
+.grey{
+    color: grey;
+}
+.simbolo{
+    width:0.6rem;
+    height: 0.6rem;
+}
+.purple{
+    color:purple;
+}
+.elenchi{
+    margin: 1rem;
+}
+table{
+    border: 1px solid grey;
+    text-align: center;
+}
+caption{
+    font-style: bold;
+}
+th{
+    background-color: rgba(0, 0, 255, 0.486);
+}
+
+/* ELEMENTI NEL MAIN - ARTICLE */
+
+/* TABELLE */
+
+/* FORM */
+
+/* ELEMENTI NELL' ASIDE */
+
+/* FOOTER */
