@@ -1,7 +1,7 @@
 /* IMPOSTAZIONI GENERALI */
 @import url('https://fonts.googleapis.com/css2?family=Poppins&display=swap');
 body{
-    background-image: src="assets/img/sfondo.png" ;
+    background-image: src="../img/sfondo.png" ;
 }
 
 h1{
