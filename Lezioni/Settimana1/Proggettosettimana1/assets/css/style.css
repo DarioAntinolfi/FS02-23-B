@@ -1,1 +1,98 @@
 /* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans:display=swap');
+/* font-family: 'Montserrat', sans-serif;
+font-family: 'Open Sans', sans-serif; */
+body{
+    text-align: center;
+    font-family: 'Open Sans', sans-serif;
+    line-height: 3rem;
+    font-size: 1.5rem;
+}
+
+h1{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-size: bold;
+    font-weight: 700;
+}
+h2{
+    font-family: 'Montserrat', sans-serif;
+    color: white;
+    font-size: bold;
+
+}
+h3{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-style:  bold;
+}
+h4{
+    font-family: 'Montserrat', sans-serif;
+    color: #25a2c3;
+    font-size: bold;
+}
+
+img{
+    width: 100%;
+}
+
+header{
+    background-color: black;
+    margin-bottom: 0px;
+}
+
+.logo{
+    width: 150px;
+    margin: 20px 0 40px 0;
+}
+/*
+ main{
+    
+ }
+ */
+.art1 {
+    background-image: url(../images/banner.jpg);
+}
+.bottone{
+    background-color: #f04c2f;
+    margin: 0 30% 0 30%;
+    border-radius: 7px;
+    color:white;
+}
+.note{
+    border-radius: 100%;
+}
+.art2{
+    background-color: #f04c2f;
+    padding: 2rem 0;
+    color: white;
+}
+.italic{
+    font-style: italic;
+    font-size: 0.8rem;
+}
+.art2-1{
+    font-size: 0.9rem;
+}
+.art3{
+    margin: 2rem;
+}
+.elemento{
+    border: 1px solid rgb(211, 208, 208);
+    border-radius: 7px;
+}
+footer{
+    background-color: #25a2c3;
+    color: white;
+}
+.footerpart{
+    font-size: 0.9rem;
+    line-height: 1.5rem;
+    padding: 2rem;
+}
+.icon{
+    font-size: 0.7rem;
+}
+.link{
+    color: white;
+}
