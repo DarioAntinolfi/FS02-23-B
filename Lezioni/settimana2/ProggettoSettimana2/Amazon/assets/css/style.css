@@ -1,6 +1,7 @@
 *{
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
+    
 }
 body{
     background-color: #EAEDED;
@@ -51,6 +52,7 @@ span{
 }
 .testo1{
     text-align: left;
+    
 }
 .imgclass{
     width: 320px;
@@ -58,7 +60,9 @@ span{
     margin: 20px;
     border-radius: 8%;
 }
-
+.imglunghe{
+    width: 100%;
+}
 footer{
     background-color: #222F3E;
     padding-top: 5px;
