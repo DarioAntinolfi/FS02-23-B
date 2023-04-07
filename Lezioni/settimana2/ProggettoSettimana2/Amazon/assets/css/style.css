@@ -1,0 +1,79 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+}
+body{
+    background-color: #EAEDED;
+}
+header{
+    background-color: #222F3E;
+    text-align: left;
+    padding-top: 5px;
+}
+.logo1{
+    width: 200px;
+}
+.navigazione{
+    margin 0;
+    background-color: #364759;
+}
+.table{
+    background-color: #364759;
+    color: white;
+}
+
+main{
+    padding: 0 12px;
+}
+.barra{
+    color: white;
+    background-color: #F56600;
+    padding: 1px
+}
+.holiday{
+    background-image: url(../img/bg-image.png); 
+}
+.titolo1{
+    padding-top: 30px;
+    color: white;
+}
+.titolo2{
+    padding-bottom: 30px;
+    color: white;
+}
+.sezimg{
+    background-color: white;
+}
+span{
+    color: #007195;
+    font-size: 14px;
+    font-style: bold;
+}
+.testo1{
+    text-align: left;
+}
+.imgclass{
+    width: 320px;
+    height: 400px;
+    margin: 20px;
+    border-radius: 8%;
+}
+
+footer{
+    background-color: #222F3E;
+    padding-top: 5px;
+}
+.divfoot{
+    background-color: #364759;
+    margin:0;
+    padding: 0.1em;
+}
+.pfoot{
+    color: white;
+}
+.logo2{
+    width: 200px;
+}
+.escape{
+    color: #222F3E;
+}

@@ -158,16 +158,16 @@ const eyeColor = {
   for (let i = 0; i < starWarsCharacters.length; i++){
     switch(starWarsCharacters[i].eye_color){
       case 'blue':
-        eyeColor.blue.push(starWarsCharacters[i].name)
+        eyeColor.blue.push(starWarsCharacters[i])
         break;
       case 'yellow':
-        eyeColor.yellow.push(starWarsCharacters[i].name)
+        eyeColor.yellow.push(starWarsCharacters[i])
         break;
       case 'brown':
-        eyeColor.brown.push(starWarsCharacters[i].name)
+        eyeColor.brown.push(starWarsCharacters[i])
         break;
       case 'red':
-        eyeColor.red.push(starWarsCharacters[i].name)
+        eyeColor.red.push(starWarsCharacters[i])
         break;
       // case 'blue-gray':
     }
@@ -255,16 +255,16 @@ Usa uno più for loop per raggiungere il risultato
 Una volta fatto crea un conosle.log per controllare la proprietà length di "characters" prima e dopo l'operazione
 */
 console.log('es 9')
-for (i=0;i<starWarsCharacters.length;i++){
-  for (j = 0; j < femaleCharacters.length; j++){
-    if(starWarsCharacters[i].name == femaleCharacters[j].name){
-      starWarsCharacters.splice(i, 1);
-      console.log(starWarsCharacters[i].name)
+for (let i=0;i<characters.length;i++){
+  for (let j = 0; j < femaleCharacters.length; j++){
+    if(characters[i] === femaleCharacters[j].name){
+     characters.splice(i, 1);
+
     }
   }
-  console.log(starWarsCharacters[i].name)
-}
 
+}
+console.log(characters);
 
 /* EXTRA ESERCIZIO 10
 Crea una funzionalità che prenda un elemento casuale dall'array "starWarsCharacters" e ne stampi in console le proprietà in modo discorsivo
