@@ -312,7 +312,7 @@ console.log('Non so lavorare con le date -.-\"')
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 */
-console.log("esercizio 9")
+console.log("esercizio 10")
 console.log('Non so lavorare con le date -.-\"')
 
 // Arrays & Oggetti
