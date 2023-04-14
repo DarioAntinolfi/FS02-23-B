@@ -221,7 +221,7 @@ const movies = [
 console.log('ESERCIZIO 10');
 
 const oldestMovie = (array) => {
-  let result = {year: 2100};
+  let result = {Year: 2100};
   for (let i = 0; i < array.length; i++){
     let currentYear = parseInt(array[i].Year);
     if (currentYear < result.Year) { // da chiedere
