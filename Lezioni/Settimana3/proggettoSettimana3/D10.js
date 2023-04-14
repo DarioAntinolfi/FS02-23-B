@@ -183,9 +183,11 @@ console.log(me)
 */
 console.log("esercizio 1")
 function dice () {
-  console.log(Math.floor(Math.random()*6))
+  
+  return Math.floor(Math.random()*6 + 1)
 }
-dice ()
+console.log(dice ())
+
 
 /* ESERCIZIO 2
   Crea una funzione chiamata "whoIsBigger" che riceve due numeri come parametri e ritorna il maggiore dei due.
@@ -211,6 +213,7 @@ whoIsBigger(10, 15)
 */
 console.log("esercizio 3")
 console.log("RIVEDERE-------------->")
+
 /* ESERCIZIO 4
   Crea una funzione chiamata "deleteOne" che riceve una stringa e un booleano come parametri.
   Se il valore booleano è true la funzione deve ritornare la stringa senza il primo carattere, altrimenti la deve ritornare senza l'ultimo.
@@ -236,6 +239,17 @@ deleteOne('Canguro', true)
 */
 console.log("esercizio 5")
 console.log("RIVEDERE-------------->")
+function onlyLetters (a) {
+  b = a.split('')
+  for (i=0 ; i < b.length; i++){
+    if (b[i] === '1' || b[i] === '2' || b[i] === '3' || b[i] === '4' || b[i] === '5' || b[i] === '6' || b[i] === '7' || b[i] === '8' || b[i] === '9' || b[i] === '0'){
+      b.splice(i, 1)
+    }
+  }
+  //b.reduce()
+  console.log(b)
+}
+onlyLetters ("I have 4 dogs")
 
 /* ESERCIZIO 6
   Crea una funzione chiamata "isThisAnEmail" che riceve una stringa come parametro e ritorna true se la stringa è un valido indirizzo email.
@@ -254,9 +268,13 @@ function isThisAnEmail (a) {
   }
 }
 isThisAnEmail ('canguri@belli.com')
+
 /* ESERCIZIO 7
   Scrivi una funzione chiamata "whatDayIsIt" che ritorna il giorno della settimana corrente.
 */
+console.log("esercizio 7")
+const d = new Date()
+console.log(d.getDay())
 
 /* ESERCIZIO 8
   Scrivi una funzione chiamata "rollTheDices" che riceve un numero come parametro.
@@ -270,14 +288,32 @@ isThisAnEmail ('canguri@belli.com')
       values: [3, 3, 4]
   }
 */
+console.log("esercizio 8")
+  var somma = 0
+  let tiro = 0
+  var tiri = []
+function rollTheDices (a) {
+  for (i=0; i < a; i++){
+    tiro = dice()
+    somma = somma + tiro
+    tiri.push(tiro)
+  }
+}
+rollTheDices (4)
+console.log(tiri)
+console.log(somma)
 
 /* ESERCIZIO 9
   Scrivi una funzione chiamata "howManyDays" che riceve una data come parametro e ritorna il numero di giorni trascorsi da tale data.
 */
+console.log("esercizio 9")
+console.log('Non so lavorare con le date -.-\"')
 
 /* ESERCIZIO 10
   Scrivi una funzione chiamata "isTodayMyBirthday" che deve ritornare true se oggi è il tuo compleanno, falso negli altri casi.
 */
+console.log("esercizio 9")
+console.log('Non so lavorare con le date -.-\"')
 
 // Arrays & Oggetti
 
