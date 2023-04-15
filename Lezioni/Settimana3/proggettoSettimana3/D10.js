@@ -323,70 +323,148 @@ console.log('Non so lavorare con le date -.-\"')
   Scrivi una funzione chiamata "deleteProp" che riceve un oggetto e una stringa come parametri; deve ritornare l'oggetto fornito dopo aver eliminato
   in esso la proprietà chiamata come la stringa passata come secondo parametro.
 */
+console.log("esercizio 11")
+console.log("RIVEDERE-------------->")
+function deleteProp (a, b) {
+  for (i = 0; i < a.length; i++){
+  
+  }
+  
+}
+deleteProp(movies, 'Type')
+console.log(movies)
 
 /* ESERCIZIO 12
   Scrivi una funzione chiamata "newestMovie" che trova il film più recente nell'array "movies" fornito.
 */
+console.log("esercizio 12")
+console.log("RIVEDERE-------------->")
 
 /* ESERCIZIO 13
   Scrivi una funzione chiamata countMovies che ritorna il numero di film contenuti nell'array "movies" fornito.
 */
+console.log("esercizio 13")
+let lunghezza
+function countMovies(a){
+  lunghezza = a.length
+}
+countMovies(movies)
+console.log(lunghezza)
 
 /* ESERCIZIO 14
   Scrivi una funzione chiamata "onlyTheYears" che crea un array con solamente gli anni di uscita dei film contenuti nell'array "movies" fornito.
 */
+console.log("esercizio 14")
+console.log("RIVEDERE-------------->")
 
 /* ESERCIZIO 15
   Scrivi una funzione chiamata "onlyInLastMillennium" che ritorna solamente i film prodotto nel millennio scorso contenuti nell'array "movies" fornito.
 */
+console.log("esercizio 15")
+console.log("RIVEDERE-------------->")
 
 /* ESERCIZIO 16
   Scrivi una funzione chiamata "sumAllTheYears" che ritorna la somma di tutti gli anni in cui sono stati prodotti i film contenuti nell'array "movies" fornito.
 */
+console.log("esercizio 16")
+console.log("RIVEDERE-------------->")
 
 /* ESERCIZIO 17
   Scrivi una funzione chiamata "searchByTitle" che riceve una stringa come parametro e ritorna i film nell'array "movies" fornito che la contengono nel titolo.
 */
-
+console.log("esercizio 17")
+console.log("RIVEDERE-------------->")
+function searchByTitle(a) {
+  for (i=0; i<movies.length; i++){
+    if (movies[i].Title == a){
+      console.log(movies[i].Title)
+    }
+  }
+}
+searchByTitle('the lord of')
 /* ESERCIZIO 18
   Scrivi una funzione chiamata "searchAndDivide" che riceve una stringa come parametro e ritorna un oggetto contenente due array: "match" e "unmatch".
   "match" deve includere tutti i film dell'array "movies" fornito che contengono la stringa fornita all'interno del proprio titolo, mentre "unmatch" deve includere tutti i rimanenti.
 */
+console.log("esercizio 18")
+console.log("RIVEDERE-------------->")
 
 /* ESERCIZIO 19
   Scrivi una funzione chiamata "removeIndex" che riceve un numero come parametro e ritorna l'array "movies" fornito privo dell'elemento nella posizione ricevuta come parametro.
 */
-
+console.log("esercizio 19")
+var movies2 = movies
+function removeIndex (a) {
+  for (i=0; i<movies.length; i++){
+    if (i === a){
+    movies2 = movies.slice(i-1, 1)
+  }
+}
+}
+removeIndex(0)
+console.log(movies2)
 // DOM (nota: gli elementi che selezionerai non si trovano realmente nella pagina)
 
 /* ESERCIZIO 20
   Scrivi una funzione per selezionare l'elemento dotato di id "container" all'interno della pagina.
 */
-
-/* ESERCIZIO 21
+console.log("esercizio 20")
+dom1 = () => {
+  document.getElementById("container").innerHTML = 'ciao';
+}
+dom1 ()
+.log('fatto')
+/* ESERconsoleCIZIO 21
   Scrivi una funzione per selezionare ogni tag <td> all'interno della pagina.
 */
-
+console.log("esercizio 21")
+dom2 = () => {
+  var cella = document.querySelectorAll('td')
+} 
+console.log('fatto')
 /* ESERCIZIO 22
   Scrivi una funzione che, tramite un ciclo, stampa in console il testo contenuto in ogni tag <td> all'interno della pagina.
 */
-
+console.log("esercizio 22")
+console.log("RIVEDERE-------------->")
+dom3 = () => {
+  for (i=0; i<cella.length; i++){
+    document.getElementById("container").innerText = cella[i];
+  }
+}
+dom3 ()
 /* ESERCIZIO 23
   Scrivi una funzione per aggiungere un background di colore rosso a ogni link all'interno della pagina.
 */
-
+console.log("esercizio 23")
+dom4 = () => {
+  var link1 = document.querySelectorAll('a')
+  for (i=0; i<link1; i++){
+    link1[i].style.backgroundColor = "red";
+  }
+}
+dom4 ()
 /* ESERCIZIO 24
   Scrivi una funzione per aggiungere un nuovo elemento alla lista non ordinata con id "myList".
 */
-
+console.log("esercizio 24")
+console.log("RIVEDERE-------------->")
 /* ESERCIZIO 25
   Scrivi una funzione per svuotare la lista non ordinata con id "myList".
 */
-
+console.log("esercizio 25")
+console.log("RIVEDERE-------------->")
 /* ESERCIZIO 26
   Scrivi una funzione per aggiungere ad ogni tag <tr> la classe CSS "test"
 */
-
+console.log("esercizio 26")
+dom7 = () => {
+  var tr1 = document.querySelectorAll('tr')
+  for (i=0; i<tr; i++){
+    tr[i].setClass = "test";
+  }
+}
+dom7 ()
 // [EXTRA] JS Avanzato
 
 /* ESERCIZIO 27
