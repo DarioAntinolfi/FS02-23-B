@@ -169,10 +169,11 @@ header{
 .articoli{
     display: flex;
     flex-direction: column;
+    width: 90vh;
 }
 
 .articolo{
-    width: 100vh;
+    width: 90vh;
     display: flex;
     flex-direction: row;
     margin: 1rem 0;
