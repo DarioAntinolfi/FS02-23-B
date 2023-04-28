@@ -1,0 +1,244 @@
+/* Import */
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto&family=Spectral&display=swap');
+
+/*Reset*/
+h1{
+    font-size: 50px;
+    margin: 0.5rem;
+    font-family: 'Spectral', serif;
+}
+
+h4{
+    font-size: 20px;
+    font-weight: bold;
+}
+
+body{
+    font-family: 'Roboto', sans-serif;
+}
+
+main{
+    padding-left: 10%;
+}
+
+/* header*/
+
+header{
+    background-color: #ffc017;
+    border: 2px solid #191919;
+    
+}
+
+#navline{
+    background-color: #ffc017;
+    padding-left: 10%;
+    border: 2px solid #191919;
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    width: 100%;
+}
+
+#navbar ul{
+    list-style: none;
+    display:flex
+}
+
+.nav{
+    padding: 0.8rem;
+    margin: 0.4rem;
+}
+
+.altnav{
+    background-color: #191919;
+    color:white;
+    border-radius: 30%;
+}
+
+.secHead{
+    background-color: #ffc017;
+    padding-left: 10%;
+    height: 30vh;
+    display: flex;
+    align-items: center;
+}
+
+.curious p{
+    margin: 1.5rem 0
+}
+
+.curious p .altnav{
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+
+/* M */
+
+.MMM{
+    text-align: right;
+    position:absolute;
+    right: 0;
+}
+
+.M1, .M2, .M3, .M4{
+    font-size: 30px;
+    animation-name: M1;
+    animation-duration: 10s;
+    animation-iteration-count: infinite;
+}
+
+.M1{
+    animation-delay: 0s;
+}
+
+.M2{
+    animation-delay: 2s;
+}
+
+.M3{
+    animation-delay: 4s;
+}
+
+.M4{
+    animation-delay: 6s;
+}
+
+@keyframes M1 {
+    0%{color:#191919}
+    25%{color: #ffc017}
+    50%{color:#191919}
+    75%{color:#191919}
+    100%{color:#191919}
+}
+
+/* schede */
+
+.schede{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.scheda{
+    display: flex;
+    flex-direction: row;
+    width: 25%;
+    margin:2%
+}
+
+.numero{
+    color:grey;
+    font-size: 30px;
+    margin-right: 1rem;
+}
+
+.identify{
+    display:flex;
+    align-items: center;
+}
+
+.imgAvatar{
+    border-radius: 100%;
+    width: 20px;
+    height: 20px;
+    margin: 0.5rem;
+}
+
+.name{
+    font-weight: bold;
+}
+
+.titoloScheda{
+    margin-bottom: 1rem;
+}
+
+.time{
+    color: gray;
+}
+
+/* articoli */
+
+.colonne{
+    display: flex;
+    flex-direction: column;
+}
+
+.articoli{
+    display: flex;
+    flex-direction: column;
+}
+
+.articolo{
+    width: 100vh;
+    display: flex;
+    flex-direction: row;
+    margin: 1rem 0;
+}
+
+.scritto{
+    margin-right: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 50vh;
+
+    
+}
+
+.utente{
+    display: flex;
+    align-items: center;
+    margin: 0.3rem;
+    margin-left: 0rem;
+}
+
+.tit-art{
+    margin: 1rem 0;
+}
+
+.txt-art{
+    margin: 1rem 0;
+}
+
+.altro{
+    color: gray;
+}
+
+.altro span{
+    background-color: lightgrey;
+    border-radius: 30%;
+    padding-left: 0.5rem;
+    padding-right: 0.5rem;
+}
+
+/* destra */
+
+.discover{
+    font-weight: bold;
+}
+
+.btnbox{
+    display: flex;
+}
+
+.btn{
+    margin: 1rem;
+    padding: 1rem;
+    border: 1px solid gray;
+    color: gray;
+    border-radius: 5px;
+}
+
+.footer ul{
+    list-style-type: none;
+    display:flex;
+
+}
+
+.foot{
+    color: gray;
+    margin: 1rem;
+}
