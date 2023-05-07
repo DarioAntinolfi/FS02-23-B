@@ -10,4 +10,8 @@
 
 .border-none {
   border: none;
+}
+
+.taglio {
+  text-decoration-line: line-through;
 }/*# sourceMappingURL=style.css.map */
