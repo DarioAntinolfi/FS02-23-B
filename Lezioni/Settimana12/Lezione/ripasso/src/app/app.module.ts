@@ -6,6 +6,8 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './components/home/home.component';
 import { NavbarComponent } from './components/navbar/navbar.component';
 import { UtentiComponent } from './components/utenti/utenti.component';
+import { LoginComponent } from './components/login/login.component';
+import { RegisterComponent } from './components/register/register.component';
 
 const rotte: Route[] = [
   {
@@ -15,6 +17,14 @@ const rotte: Route[] = [
   {
     path: 'utenti',
     component: UtentiComponent
+  },
+  {
+    path: 'login',
+    component: LoginComponent
+  },
+  {
+    path: 'register',
+    component: RegisterComponent
   }
 ]
 
@@ -23,10 +33,12 @@ const rotte: Route[] = [
     AppComponent,
     HomeComponent,
     NavbarComponent,
-    UtentiComponent
+    UtentiComponent,
+    LoginComponent,
+    RegisterComponent
   ],
   imports: [
-    BrowserModule
+    BrowserModule,
     RouterModule.forRoot(rotte)
   ],
   providers: [],
